@@ -1,0 +1,80 @@
+/* Style for the card container */
+body {
+	font-family: 'Sora', sans-serif;
+	background-color: #FAFAF9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 400px;
+	height: 500px;
+	padding: 1px 20px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for the image */
+.img img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 20px;
+	margin-top: 5px;
+}
+
+/* Style for the tag */
+.content span {
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: #E6D6FC;
+	color: #883AE1;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-radius: 20px;
+	margin: 0;
+}
+
+/* Style for the title */
+.content h3 {
+	margin: 15px 0 7px 0;
+	font-size: 24px;
+	font-weight: 600;
+	color: #20293A;
+}
+
+/* Style for the description */
+.content p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-top: 5px;
+	color: #6C727F;
+}
+
+.hr {
+	display: block;
+	width: 100%;
+	height: 1px;
+	border: none;
+	background-color: #ccc;
+	padding: none;
+	margin: none;
+}
+/* Style for the author */
+.tag {
+	position: relative;
+	bottom: 0;
+	right: 155px;
+	padding: 5px;
+	margin: none;
+	font-size: 14px;
+	font-weight: 500;
+	color: #6C727F;
+}
